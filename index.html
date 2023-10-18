@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Jua&family=Orelega+One&family=Nanum+Gothic+Coding:wght@700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>201932940 정수연 Midterm Project</title>
+		<style>
+		div
+		#container {
+			width:980px;
+			padding:20px;
+			margin:0 auto;}
+		#header {
+			padding:5px;
+			margin-left:170px;
+			margin-right:250px;
+			border-bottom-style:dashed;
+			border-width:7px;
+			border-color:#688A08; }
+		#top_menu {
+			padding:20px;
+			position: absolute;
+			top:80px;
+			left:620px;
+			color:black; 
+			font-size:24px; }
+		#head_title {
+			padding:20px;
+			position:absolute;
+			top:30px;
+			left:390px;
+			color:green;
+			font-size:30px; }
+		#contents {
+			width:1000px;
+			height:1000px;
+			padding:30px;
+			float: left;
+			margin-bottom:5px;
+			margin-left:170px; }
+		#sidebar {
+			width:200px;
+			height:650px;
+			padding:5px;
+			float: right;
+			margin-top:20px;
+			margin-bottom:20px; }
+		#footer {
+			clear:both;
+			padding:10px;
+			border-top-style:dashed;
+			border-width:7px;
+			border-color:#688A08; }
+		.text {text-indent:60px;}
+		p { text-align:center; }
+		a { text-decoration:none }
+		a:link { color:black; }
+		a:visited { color:black; }
+		a:hover { color:green; }
+		table { font-size: 10pt; }
+		article { width:780px; }
+	</style>
+</head>
+<body>
+	<div id="container" style="background-color:white">
+		<div id="header">
+		<strong><img src="jeju.png" width="230" height="230" alt="제주도 투어"></a></strong>
+		<div id="head_title" style="font-family:'Jua', sans-serif;"><p>제주도 투어<br>어서 옵서예</p>
+		</div>
+		<div id="top_menu" style="font-family:'Jua', sans-serif;">
+			<a href="index.html">Home&nbsp;&nbsp;│&nbsp;</a>
+            <a href="about.html">&nbsp;About&nbsp;&nbsp;&nbsp;│&nbsp;</a>
+			<a href="West.html">&nbsp;애월&nbsp;&nbsp;&nbsp;│&nbsp;</a>
+			<a href="East.html">&nbsp;성산&nbsp;&nbsp;&nbsp;│&nbsp;</a>
+			<a href="South.html">&nbsp;서귀포</a>
+		</div>
+		</div>
+		<div id="contents">
+			<div id="sidebar">
+			<img src="island.png" width="230" height="230">
+				<form style="font-family:'Nanum Gothic Coding', monospace; font-size:18px;">
+				&emsp;가장 기대되는<br>&emsp;여행지를 골라주세요:<br>
+				<br>
+				&emsp;<select name="Language" size="3">
+					<option value="west">애월
+					<option value="east">성산
+					<option value="south" SELECTED>서귀포
+				</select>
+				</form>
+				<br>
+				<form>
+				<h3>&emsp;가장 기대되는<br>&emsp;여행코스<br>&emsp;(중복 선택가능)</h3>
+					<ul>
+						<li><input type="checkbox" value="surf">서핑</li>
+						<li><input type="checkbox" value="climbing">등산</li>
+						<li><input type="checkbox" value="shopping">쇼핑</li>
+						<li><input type="checkbox" value="kayak">카약</li>
+						<li><input type="checkbox" value="beach">해수욕장</li>
+						<li><input type="checkbox" value="orange">감귤농장</li>
+					</ul>
+				</form>
+				<br>
+				<form style="font-family:'Orelega One', cursive; font-size:18px;">
+				&emsp;Choose your payment<br>&emsp;method:<br>
+				&emsp;<input type="radio" name="creditcard" value="visa" checked>VISA<br>
+				&emsp;<input type="radio" name="creditcard" value="master">Master Card<br>
+				&emsp;<input type="radio" name="creditcard" value="amex">American Express<br>
+				&emsp;<input type="radio" name="cash" value="amex">Cash<br>
+				</p>
+				<br>
+				</form>
+				<form>
+				&emsp;<input type="checkbox" name="nonews">
+				개인정보 제공 및<br>&emsp;활용에 동의합니다.
+				</form>
+			</div>
+			<article>
+			<h3 style="font-family:'Nanum Gothic', sans-serif;">&emsp;&emsp;⛅바람따라 떠나는 제주도 힐링 여행</h3>
+			&emsp;&emsp;<img src="jeju_island.jpg" width="720" height="500" alt="jeju">
+			</article>
+			<br>
+			<section>
+			<article style="background-color:#E1F5A9">
+			<br>
+			<table border="0">
+				<tr>
+				<td>&emsp;&emsp;<img src="west.png" width="220" height="220" alt="west"></td>
+				<td>&emsp;&emsp;<img src="east.jpg" width="220" height="220" alt="west"></td>
+				<td>&emsp;&emsp;<img src="south.jpg" width="220" height="220" alt="west"></td>
+				</tr>
+				<tr>
+				<td><h3>&emsp;&emsp;✈애월 여행</h3>
+				<dl>
+					<dt>&emsp;&emsp;제주의 서쪽 지역</dt>
+					<dd>&emsp;많은 여행자들이 좋아하는 애월</dd>
+				</dl>
+				</td>
+				<td><h3>&emsp;&emsp;✈성산 여행</h3>
+				<dl>
+					<dt>&emsp;&emsp;제주의 동쪽 지역</dt>
+					<dd>&emsp;뛰어난 자연경관을 가진 성산</dd>
+				</dl>
+				</td>
+				<td><h3>&emsp;&emsp;✈서귀포 여행</h3>
+				<dl>
+					<dt>&emsp;&emsp;제주의 남쪽 지역</dt>
+					<dd>&emsp;자연과 도시의 적절한 조화 서귀포</dd>
+				</dl>
+				</td>
+				</tr>
+				</table>
+				<br>
+			</article>
+		</div>
+		<div id="footer">
+		<p>주소 : 제주특별자치도 제주시 가천대동 123번지&emsp;대표 : 정수연<br>
+		전화번호 : 1234-5678 이메일 : jeju_tour@gachon.com<br>
+		Copyright 2021 Jungsuyeon</p>
+		<br>
+		</div>
+</body>
+</html>
